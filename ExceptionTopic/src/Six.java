@@ -2,11 +2,11 @@
 public abstract class Six {
 	public static void main(String[] args) throws InstantiationException {
 		// static class loading
-		//new Six();
+		//new six();
 
 		// dynamic class loading
 		try {
-			Class.forName("Six").newInstance();
+			Class.forName("six").newInstance();
 		} catch (ClassNotFoundException e) {
 			System.out.println("this class is not exist");
 		}catch (NoClassDefFoundError e) {

@@ -1,4 +1,4 @@
-//propagated in this case try block is never propagated.
+//propagoted in this case try block is never propagated.
 public class Seven {
 	void a() {
 		try {
